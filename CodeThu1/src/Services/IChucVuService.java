@@ -15,7 +15,9 @@ import java.util.List;
 public interface IChucVuService {
     
     //code thầy tiến//
-    //code thầy tiến 1//
+
+    //code thầy tiến 2//
+
     List<ChucVuView> getall();
 
     boolean insert(ChucVuView cv);

@@ -4,6 +4,7 @@
  */
 package Services;
 
+import DomainModels.ChucVuDM;
 import ViewModels.ChucVuView;
 import java.util.List;
 
@@ -21,4 +22,6 @@ public interface IChucVuService {
     boolean update(ChucVuView cv);
 
     boolean delete(ChucVuView cv);
+    
+    boolean them (ChucVuDM chucVuDM);
 }

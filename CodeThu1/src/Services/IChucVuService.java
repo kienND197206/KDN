@@ -12,7 +12,8 @@ import java.util.List;
  * @author Admin
  */
 public interface IChucVuService {
-
+    
+    //code thầy tiến//
     List<ChucVuView> getall();
 
     boolean insert(ChucVuView cv);

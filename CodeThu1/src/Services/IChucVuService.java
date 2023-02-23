@@ -24,4 +24,6 @@ public interface IChucVuService {
     boolean delete(ChucVuView cv);
     
     boolean them (ChucVuDM chucVuDM);
+    
+    boolean xoa (ChucVuDM chucVuDM);
 }

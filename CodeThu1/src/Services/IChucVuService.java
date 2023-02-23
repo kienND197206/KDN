@@ -26,4 +26,5 @@ public interface IChucVuService {
     boolean them (ChucVuDM chucVuDM);
     
     boolean xoa1 (ChucVuDM chucVuDM);
+
 }
